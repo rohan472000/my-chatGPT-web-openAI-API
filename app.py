@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-openai.api_key = "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"
+openai.api_key = "openAI-API-key"
 
 
 def generate_response(prompt):
